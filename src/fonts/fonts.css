@@ -39,3 +39,21 @@
   src: url(../fonts/FUTURAPT-HEAVY.TTF);
   font-weight: 900;
 }
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url(./HelveticaNeue-Light.otf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url(./HelveticaNeue-Roman.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url(./HelveticaNeue-Medium.otf);
+  font-weight: 500;
+}
