@@ -935,8 +935,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 
-  transform: rotate(-5deg);
-
   margin: -70px auto 0;
 }
 
@@ -974,6 +972,10 @@ body {
 
 .benefits .list-item:nth-child(6) {
   z-index: 1;
+}
+
+.benefits .list-item:nth-child(odd) {
+  transform: rotate(-5deg);
 }
 
 .benefits .list-item:nth-child(even) {
@@ -1050,6 +1052,8 @@ body {
     transform: rotate(-5deg);
 
     margin: 0 auto 0;
+
+    margin: 0;
   }
 
   .benefits .item-box {
