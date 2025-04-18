@@ -172,6 +172,13 @@ body {
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
+
+    transition: color 250ms ease;
+  }
+
+  .navigation-list .link:hover,
+  .navigation-list .link:focus {
+    color: #588cc6;
   }
 
   .header-buy-button {
@@ -188,6 +195,13 @@ body {
     padding: 20px;
     border-radius: 50px;
     background: #5381b5;
+
+    transition: color 250ms ease, background 250ms ease;
+  }
+
+  .header-buy-button:hover,
+  .header-buy-button:focus {
+    background-color: #8ab4e4;
   }
 }
 
@@ -682,6 +696,14 @@ body {
 
     max-width: 380px;
     width: 100%;
+
+    transition: transform 250ms ease;
+  }
+
+  .services .service-item:hover,
+  .services .service-item:focus {
+    transform: scale(1.1);
+    transition: transform 250ms ease;
   }
 
   .services .service-name {
@@ -1401,12 +1423,12 @@ body {
     flex-wrap: wrap;
     gap: 40px;
 
-    max-width: 400px;
+    max-width: 440px;
     margin: 0 0 0 auto;
   }
 
   .footer .footer-nav-list.desktop .footer-nav-item:nth-child(4) {
-    margin-left: 82px;
+    margin-left: 0;
   }
 
   .footer .footer-nav-item {
@@ -1417,7 +1439,7 @@ body {
   }
 
   .footer .footer-contacts {
-    max-width: 440px;
+    max-width: 500px;
     margin: 0 0 0 auto;
   }
 
